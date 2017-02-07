@@ -5,15 +5,15 @@ var Comment = require("./models/comment");
 var data = [{
     name: "Tree Tops",
     image: "https://farm4.staticflickr.com/3795/10131087094_c1c0a1c859.jpg",
-    description: "blah blah blah"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et lorem nibh. Fusce efficitur orci vitae sem tristique venenatis. Suspendisse congue non arcu quis convallis. Donec posuere ligula at ornare hendrerit. Morbi viverra tincidunt mattis. Pellentesque et mauris quam. Nulla ut placerat urna. Nam sit amet elit et lacus maximus cursus. Mauris at aliquam nibh. Nunc id turpis vel sem scelerisque fringilla vitae ac odio. Integer cursus turpis in sem consectetur, sed vestibulum justo tempor. Nam fermentum, ex sed elementum sollicitudin, diam est malesuada sem, ac scelerisque sem turpis vel nibh. Curabitur nisl ligula, sollicitudin non est maximus, rhoncus porta diam. "
 }, {
     name: "Icy Embrace",
     image: "https://farm1.staticflickr.com/112/316612921_f23683ca9d.jpg",
-    description: "blah blah blah"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et lorem nibh. Fusce efficitur orci vitae sem tristique venenatis. Suspendisse congue non arcu quis convallis. Donec posuere ligula at ornare hendrerit. Morbi viverra tincidunt mattis. Pellentesque et mauris quam. Nulla ut placerat urna. Nam sit amet elit et lacus maximus cursus. Mauris at aliquam nibh. Nunc id turpis vel sem scelerisque fringilla vitae ac odio. Integer cursus turpis in sem consectetur, sed vestibulum justo tempor. Nam fermentum, ex sed elementum sollicitudin, diam est malesuada sem, ac scelerisque sem turpis vel nibh. Curabitur nisl ligula, sollicitudin non est maximus, rhoncus porta diam. "
 }, {
     name: "Canyon Floor",
     image: "https://farm1.staticflickr.com/189/493046463_841a18169e.jpg",
-    description: "blah blah blah"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et lorem nibh. Fusce efficitur orci vitae sem tristique venenatis. Suspendisse congue non arcu quis convallis. Donec posuere ligula at ornare hendrerit. Morbi viverra tincidunt mattis. Pellentesque et mauris quam. Nulla ut placerat urna. Nam sit amet elit et lacus maximus cursus. Mauris at aliquam nibh. Nunc id turpis vel sem scelerisque fringilla vitae ac odio. Integer cursus turpis in sem consectetur, sed vestibulum justo tempor. Nam fermentum, ex sed elementum sollicitudin, diam est malesuada sem, ac scelerisque sem turpis vel nibh. Curabitur nisl ligula, sollicitudin non est maximus, rhoncus porta diam. "
 }];
 
 function seedDB() {
