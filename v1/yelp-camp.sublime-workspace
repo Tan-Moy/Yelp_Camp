@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"pass",
+				"password\t(register.ejs)"
+			],
+			[
+				"uer",
+				"username"
+			],
+			[
+				"user",
+				"User"
+			],
+			[
+				"express",
+				"express-session\t(package.json)"
+			],
+			[
+				"passport",
+				"passportLocalMongoose"
+			],
+			[
+				"User",
+				"UserSchema"
+			],
+			[
+				"passprt",
+				"passport-local-mongoose\t(package.json)"
+			],
+			[
+				"camp",
+				"campgrounds"
+			],
+			[
+				"find",
+				"findById"
+			],
+			[
+				"campgrounds",
+				"campgrounds/:id"
+			],
+			[
 				"comment",
 				"commentSchema"
 			],
@@ -18,10 +58,6 @@
 			[
 				"seed",
 				"seedDB"
-			],
-			[
-				"camp",
-				"campgrounds"
 			],
 			[
 				"expre",
@@ -51,7 +87,88 @@
 			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 2069,
+				"buffer_size": 4020,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/register.ejs",
+			"settings":
+			{
+				"buffer_size": 224,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/user.js",
+			"settings":
+			{
+				"buffer_size": 283,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 459,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/campground.js",
+			"settings":
+			{
+				"buffer_size": 307,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/campgrounds/index.ejs",
+			"settings":
+			{
+				"buffer_size": 1074,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/campgrounds/show.ejs",
+			"settings":
+			{
+				"buffer_size": 1575,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/stylesheets/main.css",
+			"settings":
+			{
+				"buffer_size": 116,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/campgrounds/new.ejs",
+			"settings":
+			{
+				"buffer_size": 1027,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/comment.js",
+			"settings":
+			{
+				"buffer_size": 176,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -63,12 +180,12 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 400.0,
-		"last_filter": "",
+		"height": 270.0,
+		"last_filter": "install",
 		"selected_items":
 		[
 			[
-				"insta",
+				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -76,7 +193,7 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"install",
+				"insta",
 				"Package Control: Install Package"
 			],
 			[
@@ -133,13 +250,26 @@
 	"expanded_folders":
 	[
 		"/home/tan/Yelp_Camp",
-		"/home/tan/Yelp_Camp/v1"
+		"/home/tan/Yelp_Camp/v1",
+		"/home/tan/Yelp_Camp/v1/public",
+		"/home/tan/Yelp_Camp/v1/public/stylesheets",
+		"/home/tan/Yelp_Camp/v1/views",
+		"/home/tan/Yelp_Camp/v1/views/campgrounds",
+		"/home/tan/Yelp_Camp/v1/views/comments",
+		"/home/tan/Yelp_Camp/v1/views/partials"
 	],
 	"file_history":
 	[
+		"/home/tan/workspace/Authentication/AuthDemo/app.js",
+		"/home/tan/Yelp_Camp/v1/seeds.js",
+		"/home/tan/Yelp_Camp/v1/views/comments/new.ejs",
+		"/home/tan/.config/sublime-text-3/Packages/User/ColorHighlighter.sublime-settings",
+		"/home/tan/Yelp_Camp/v1/views/partials/header.ejs",
+		"/home/tan/Yelp_Camp/v1/views/partials/footer.ejs",
+		"/home/tan/Yelp_Camp/v1/views/campgrounds/index.ejs",
+		"/home/tan/Yelp_Camp/v1/views/show.ejs",
 		"/home/tan/Yelp_Camp/v1/models/campground.js",
 		"/home/tan/Yelp_Camp/v1/models/comment.js",
-		"/home/tan/Yelp_Camp/v1/seeds.js",
 		"/home/tan/Yelp_Camp/v1/app.js",
 		"/home/tan/react/helloreact/public/yelp.sublime-project",
 		"/home/tan/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
@@ -213,7 +343,95 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2069,
+						"buffer_size": 4020,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3950,
+								3950
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-eighties.dark (SL).tmTheme",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/register.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								206,
+								206
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "models/user.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 283,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								229,
+								229
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 459,
 						"regions":
 						{
 						},
@@ -226,7 +444,98 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "models/campground.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 307,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								307,
+								307
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-eighties.dark (SL).tmTheme",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "views/campgrounds/index.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1074,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1066,
+								1066
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-eighties.dark (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "views/campgrounds/show.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1575,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1047,
+								1047
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-eighties.dark (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -234,7 +543,96 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public/stylesheets/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								113,
+								113
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-eighties.dark (SL).tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "views/campgrounds/new.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1027,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1027,
+								1027
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-eighties.dark (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "models/comment.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/base16-eighties.dark (SL).tmTheme",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -299,7 +697,7 @@
 		[
 			[
 				"",
-				"~/react/helloreact/public/yelp.sublime-workspace"
+				"~/react/react.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -321,7 +719,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 214.0,
+	"side_bar_width": 226.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
